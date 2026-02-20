@@ -1,1 +1,330 @@
+AOPS Training Notes
 
+We work on 2 task-OAC and CAD
+
+Tools- SI+ for ICG/ICR orders  Classic for IPCG {MPLS} order and MYSD.
+
+There are two types of order- DOA and NON DOA {DATE ON ARIVAL}
+
+Two Types of Supplier SAFE and UNSAFE.
+
+FULL FORM OF OAC and CAD-- {Order Access Cease (Cease)}  {Confirm Access Dates (Cease)}
+
+*********************************************************************************************************************************************************
+We have to raise the order when the CRD is under 60 days only.
+
+How to yank the request.
+
+We have to type Access and then click on TASK YANK and then we have to put the request date as per the supplier
+
+2nd date we have to put the date of order submission and then we have to click end task OAC end.
+
+******************************************************************************************************************************
+
+1-Our First task is {OAC} we have to place the OAC task VIA mail and we have to raise the order and chase for the SBD for the UNSAFE order we have to wait till SOFT has been done
+
+***********************************************************************************************************************
+Soft cease task name for unsafe supplier.
+
+Deactivate Service / Feature (Cease UNSAFE ORDER"S- Waiting for the soft cease completion CRD + 1 working day then after that we can raise the OAC TASK for the unsafe order's.
+
+For SAFE order we have directly raise the order VIA MAIL OR PORTAL as per the 2individual supplier's and ask for the SBD {SLA 2 working days and we have to chase after 3 days} after raising the order we have to update the MYSD.
+
+2-{CAD TASK} We have to close the CAD TASK when we receive the SBD DATE on same mail we sent at the time of OAC TASK We have to chase 3 times for the SBD if not then we have to escalate the matter to respective managers {and then we have to raise the FDR request} ,
+
+First we attached ceaseproof mail to attached then go in all task and close it and 4 date select today and SBD take which we get and end task,
+Then resolve MYSD add SBD
+
+*********************************************************************************************************************************************************************
+
+Quick Cease- We have to progress with the Quick cease also.
+
+******************************************************************************************************************************
+VALIDATION POINTS.
+
+At the time of OAC TASK
+
+COM TOOL, IWAN, TAHITI, CI.
+
+We have to validate.
+
+Order id, Circuit id, Service id, Supplier name, service status { Cease Pending } , Country on each portal.
+
+At time of SI+ validation we have to validate the circuit id and supplier name
+
+and Circuit id should always reflect as ACCESS SUPPLIER CIRCUIT ID if it is reflecting as GLOBAL circuit then we have to raise the triage process accordingly.
+
+**********************************************************************************************************************************************************************************
+MYSD NOTES IF SBD is pending we have to update these notes.
+
+Access Cease Status: pending.
+Action pending with (Supplier/CDP): Supplier.
+Individual in contact: Supplier.
+Escalation level: NA
+Next update:18/06/2025
+Notes: -
+
+
+( Notes: - Supplier has shared stop bill date is 1/10/2026, so checking with supplier for ETC charges and Contract Period. )
+
+**********************************************************************************************************
+
+ETC CHARGER"S
+
+When we place the order {OAC} after that on same mail if supplier ask for the ETC charge's at the time of CAD then we have to raise the ETL request at the portal {ETL STORE} after that we have closed the CAD task with the Dummy cease proof and update the MYSD as well and Raise the Action on respective CDP of the order and also we have to keep the action on ourself to check the ETL update.
+
+**************************************************************************************************************************
+
+How to raise the ETL request.    {Cease CoE - ETL Store - ETL Store}
+
+ADD new item-- Fill the details-- Update the notes- Today date--raise the ETL on CDP-- Paste the supplier mail--ETL penalty {YES}--Fill the tab circuit id and all--Attach the same mail of the supplier--and sumbmit it--Copy the ETL id--Close the CAD task with the Dummy cease proof Cease proof_CDP Name_Store id--Attach it on respective portal--raise the action on MYSD to the respective the Order CDP--{ETL has been raised please check ETL id and CAD task has been closed with the Dummy cease proof--And then take the action on ourself saying checking with the account team for the ETL status-- Reply on Supplier name saying we are checking with the Account team regarding the ETC charger's as soon as possible I will get the update
+
+After that we have to chase for the update of ETL for Ritesh and CDP and after the Approval we have to mail the supplier saying ETL has been approved please confirm the SBD?.
+
+
+
+
+
+Hello @Nur Syuhada Binti Mohammad Weddan
+
+I have raised the ETL Query to account team so please allow me some time to get the ETL approval.
+
+
+Hello @'Nur Syuhada Binti Mohammad Weddan'
+
+I have checked with Account team regarding the ETC chargers, and it has been approved so could you please provide the SBD so I can proceed further.
+
+
+
+
+***************************************************************************************************************************************
+
+Triage process.
+apply to stars report and and send request CNS report from CNS site
+
+
+
+
+
+
+
+
+
+
+ =====================================================================================
+
+
+
+
+
+
+Chaser Mail
+ 
+Hi Team,
+ 
+Please proceed with the cease & provide stop bill date as soon as possible.
+Waiting for your response.
+ 
+ 
+Acknowledgment
+ 
+Hi Team,
+ 
+Acknowledged.
+ 
+Thank you for the update.
+ 
+
+ 
+To Get ETL Charges
+ 
+Please provide ETL charges, MRC charges, contract period & total calculations if the circuit is in contract.
+ 
+ 
+ 
+ORDER CANCELLATION
+ 
+Order is getting cancel: YES
+Cancellation status: Cancel
+Config: Cancel
+Access: Cancel
+Order status: Cancel
+Notes:
+Request received: By CDP
+Reason for cancellation: Customer wants to use the service
+ 
+ 
+ 
+ETL DUMMY CEASE PROOF
+ 
+CAD task is closed as this order is pending for ETC approval.
+ 
+Dhanashri Wani the CDP for this order is checking with account team for ETC approval through ETL store ID 2510 in Share point.
+ 
+ 
+After ETC approved the mail to supplier
+ 
+Hi Team,
+ 
+ETC has been approved by account team please proceed with cease and provide stop bill date.
+ 
+ 
+To Escalate on Mail Format
+ 
+Hi Team,
+ 
+Hope you are doing well.
+ 
+We had placed the cease request on bell Canada portal on 26th September.
+ 
+We are trying to chase you for the last billing date for the service. I request you to check the details below and help us to have the last billing date.
+ 
+ 
+ 
+ 
+ETL Format to Account Manager
+ 
+Hi Team,
+ 
+I hope this email finds you well. I am writing to request your approval for the cease penalty charges related to ceasing the circuit with our supplier. It is crucial for the Access Cease Team to proceed with ceasing the circuit and obtaining the Stop Bill date.
+ 
+Order ID : 1820510, Circuit ID : M0650146, Customer Name : CLSA LIMITED, Supplier Name : SINGTEL, Site Name : S1153736, ETL ID : 2098
+ 
+Below is the information regarding the cease penalty charges from the supplier:
+(Information)
+Total: 3400 SGD
+ 
+Your prompt approval on this matter will enable us to efficiently move forward with the necessary steps, as ceases are usually not progressed by the supplier until approval is given. Please let me know if you need any further details or clarification.
+Thank you for your attention to this request.
+ 
+ 
+ 
+MAIL to AM For Triage Process
+ 
+Hello Ila,
+ 
+We sent the cease request to supplier, but they are saying that the circuit is incorrect .
+So, we checked internally on stars report and CNS as well.
+ 
+I request you to check below details and share the correct details so that we can go back to the supplier.
+Waiting for your response.
+ 
+ 
+CUSTOMER PROVIDED ACCESS
+ 
+CUSTOMER PROVIDED ACCESS
+Access Task closed without any action.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Check with BM
+ 
+Hi
+ 
+We need to cease the circuit - MM212600007524 for supplier - Granite Telecommunications, LLC, but as this is Nestle customer, please check below site details, and provide confirmation can we progress the cease or not?
+
+
+
+=======================================================================================================
+
+
+
+
+
+MYSD Notes
+
+OAC will be placed after soft cease
+OAC placed with supplier
+
+Service Id: GMPLS6C-01011519-0007    
+Circuit ID – 21482095 
+Supplier Name: EQUINIX 
+CRD: 27/Feb/2026  
+Supplier category: SAFE
+DOA/NDOA: DOA
+Soft cease status: NA
+Circuit ID found in IWAN: NA
+CAD status: OPEN
+SBD:
+NOTES: ***
+ 
+4 march 2026
+
+Pencil Notes
+ 
+Supplier Safe: Unsafe
+Access Placed: Yes
+Received Date from Supplier: No
+AOPS 4-Eye Check: Yes
+Router Recovery Schedule: Yes/No
+Soft Cease Completed: No
+Hard Cease Completed: Yes/No
+Recovery Completed: Yes/No
+CDP 4-Eye Check: Yes/No (while order acceptance & before closing the order)
+Order Closed: Yes/No
+Site Deactivated: Yes/No
+Pega Closed: Yes/No
+SI+ Device Cease: Yes/No
+Special Notes:***
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+When Circuit ID start from CPA(customer provided access)____.
+CUSTOMER PROVIDED ACCESS
+Access task closed without any action
+
+
+=$M2="Complete"
+
+Hi Gauri,
+ 
+
+This is to inform you that supplier has provided ETC so please check with account team and ETL team for approval.
+Supplier Name-CETIN
+Customer name-DP DHL ETO
+Circuit Id-9794867
+ 
+Let me inform you that the cancellation would be 8 247 CZK with end billing date 25.12.2025.
+ETL ID - 2922
+
+
+ETL Process
+Hi Team,
+
+Kindly allow some time to get the below charges approval by account team.
+
+
+
+mysd update
+CAD task close with dummy cease proof
+
+Access Cease Status: pending.
+
+Action pending with (Supplier/CDP): Supplier.
+
+Individual in contact: Supplier.
+
+Escalation level: NA
+
+Next update:11/02/2026
+
+Notes: - ETL raised with ETL store ID - 3050
+
+
+
+
+
+
+****URGENT*******
+
+Hi team,
+
+Please cancel the cease request as customer want to continue with the service.
+
+Please provide the confirmation on priority .
+
+Awaiting for your response.
